@@ -1,0 +1,138 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #2E86C1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Form Styling */
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="datetime-local"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #2E86C1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1b4f72;
+}
+
+/* Link Styling */
+a {
+    color: #2E86C1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding:10px;
+}
+}
+
+
